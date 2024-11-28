@@ -23,25 +23,9 @@ var map = function(arr, fn) {
 //     return returnedArray
 // };
 
-// Slower solution (enough)
+// Slower solution
 // var map = function(arr, fn) {
 //     return arr.map((a, i) => fn(a, i))
 // }
 
-
-// Testing code
-
-let arr = null
-let fn = null
-
-arr = [1,2,3]
-fn = function plusone(n) { return n + 1; }
-console.log(map(arr, fn))
-
-arr = [1,2,3]
-fn = function plusI(n, i) { return n + i; }
-console.log(map(arr, fn))
-
-arr = [10,20,30]
-fn = function constant() { return 42; }
-console.log(map(arr, fn))
+export default map
