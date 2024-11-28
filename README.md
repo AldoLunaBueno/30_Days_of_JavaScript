@@ -15,6 +15,9 @@ Add these properties to the package.json:
 }
 ```
 
+(We need to remember that "VM Modules is an experimental feature and might change at any time")
+
+
 Now you can export your functions like this:
 
 ```js
